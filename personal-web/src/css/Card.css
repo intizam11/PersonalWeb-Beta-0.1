@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.innerMainContentContainer2 {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  background-color: #1a1d22 !important;
+  background-size: 16px 16px !important; 
+}
+
+.cardContainer2 {
+  display: flex !important;
+  align-items: center !important;
+  width: 75vw !important;
+  max-width: 650px !important;
+  padding: 50px 30px 50px 20px !important;
+  background: #292f36 !important;
+  border-radius: 24px !important;
+}
+
+.cardContainer2 .cardImgContainer2 {
+  max-width: 280px !important; 
+  width: 28vw !important;
+  height: 300px !important;
+  object-fit: cover !important; 
+  margin-left: -60px !important;
+  margin-right: 30px !important;
+  border-radius: inherit !important; 
+  box-shadow: 0 60px 40px rgb(0 0 0 / 8%) !important
+}
+
+.cardContainer2 .cardTitileContainer2 {
+  font-size: 22px !important;
+  margin-right: 30px !important;
+  color: #38b09d !important; 
+}
+
+/* .card h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(0 0 0 / 90%);
+} */
+
+.cardContainer2 .cardDetailContainer2 {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #8ea2c1 !important;
+  margin-bottom: 24px !important;
+}
+
+.cardContainer2 .cardButtonContainer2 {
+  border: 0 !important;
+  /* background: linear-gradient(90deg, #5448de, #38b09d); */
+  background-color: #38b09d !important;
+  color: #f8f8f8 !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  border-radius: 40px !important;
+}
+
+@media (width <= 740px) {
+  .cardContainer2 {
+    margin: 0 40px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    width: 100% !important;
+    text-align: center !important;
+    flex-direction: column !important;
+  }
+
+  .cardContainer2 .cardTitileContainer2 {
+    margin-right: 0 !important;
+    font-size: 26px !important;
+  }
+
+  .cardContainer2 .cardImgContainer2 {
+    margin: -100px 0 30px 0 !important;
+    width: 100% !important;
+    max-width: 1000px !important;
+  }
+
+
+
+}

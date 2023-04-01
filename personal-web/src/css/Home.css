@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Source+Code+Pro:wght@200&display=swap");
+
+.mainContainerHome {
+  /* background-color: #1a1d22 !important; */
+  /* background-image: url('/images/backgroundWave.png'); */
+  background-image: url(../images/backgroundWave.svg);
+  color: white !important;
+  height: 100vh !important;
+  background-size: cover !important;
+}
+
+.mainContent .mainHomeName {
+  font-size: 3em !important ;
+  font-weight: 340 !important;
+  color: #38b09d !important;
+}
+
+.innerMainContentRight img {
+  height: 230px !important;
+  width: 230px !important;
+  border-radius: 300px !important;
+}
+
+.mainContent .mainHomeStatus {
+  font-weight: 300 !important;
+  font-size: 2em !important;
+  color: #474f5c;
+}
+
+.mainContainerHome2 {
+  background-color: #1a1d22 !important;
+  color: white !important;
+  height: 100vh !important;
+}
+
+.mainTitleContainer2 {
+  text-align: center !important;
+  margin-bottom: 100px !important;
+}
+/* 
+.mainContainerHome {
+  border: 1px solid red !important;
+} */
+
+.innerMainContent {
+  /* border: 1px solid red !important; */
+  margin-top: 10% !important;
+}
+
+@media (width <= 740px) {
+  .imageRight {
+    display: none;
+  }
+}
