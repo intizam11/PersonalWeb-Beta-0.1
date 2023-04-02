@@ -57,6 +57,8 @@
 .mainContent {
   /* border: 1px solid red !important;  */
   margin-top: 50px !important;
+  width: 50% !important;
+  margin: auto;
 }
 
 @media (width <= 740px) {
