@@ -52,8 +52,12 @@ export default function Footer() {
                             </p>
                         </MDBCol> */}
 
-                            <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
-                                <h6 className='text-uppercase fw-bold mb-4 titleFooter'>Programing language</h6>
+                            <MDBCol
+                                md='2' lg='2' xl='2' className='mx-auto mb-4'
+                                data-aos="fade-up">
+                                <h6
+                                    className='text-uppercase fw-bold mb-4 titleFooter'
+                                >Programing language</h6>
                                 <p>
                                     <a href='#!' className='text-reset'>
                                         Go language
@@ -76,7 +80,7 @@ export default function Footer() {
                             </p> */}
                             </MDBCol>
 
-                            <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+                            <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4' data-aos="fade-up">
                                 <h6 className='text-uppercase fw-bold mb-4 titleFooter'>Library / Framework</h6>
                                 <p>
                                     <a href='#!' className='text-reset'>
@@ -100,7 +104,7 @@ export default function Footer() {
                             </p> */}
                             </MDBCol>
 
-                            <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
+                            <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4' data-aos="fade-up">
                                 <h6 className='text-uppercase fw-bold mb-4 titleFooter'>Contact</h6>
                                 {/* <p>
                                 <MDBIcon color='secondary' icon='home' className='me-2' />
