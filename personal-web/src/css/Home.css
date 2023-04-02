@@ -7,7 +7,7 @@
 .mainContainerHome {
   /* background-color: #1a1d22 !important; */
   /* background-image: url('/images/backgroundWave.png'); */
-  background-image: url(../images/backgroundWave.svg);
+  background-image: url(../images/cek.svg);
   color: white !important;
   height: 100vh !important;
   background-size: cover !important;
@@ -54,10 +54,10 @@
   margin-top: 10% !important;
 }
 
-/* .mainContent {
-  border: 1px solid red !important; 
+.mainContent {
+  /* border: 1px solid red !important;  */
   
-} */
+}
 
 @media (width <= 740px) {
   .imageRight {
