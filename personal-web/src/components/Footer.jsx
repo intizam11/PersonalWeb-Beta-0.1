@@ -125,7 +125,9 @@ export default function Footer() {
                     </MDBContainer>
                 </section>
 
-                <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+                <div
+                    data-aos="fade-up"
+                    className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
                     © 2023 Copyright
                     <a className='text-reset fw-bold' href='/'>
 
