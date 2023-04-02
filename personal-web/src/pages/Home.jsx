@@ -54,6 +54,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+
             <div className="mainContainerHome2">
                 <h1 data-aos="fade-down"
                     data-aos-easing="linear"
@@ -61,13 +62,9 @@ export default function Home() {
                     className='mainTitleContainer2'>Project</h1>
 
                 <div className="innerMainContentContainer2">
-
-
-
-
                     <div data-aos="zoom-in-up" className="cardContainer2">
                         <img className='cardImgContainer2' src="/images/newThumbNail.png" />
-                        <div>
+                        <div className='innerCardContent'>
                             <h2 className='cardTitileContainer2'>Hollyways</h2>
                             {/* <h3>Type: Residential rental</h3> */}
                             <p className='cardDetailContainer2'>
@@ -76,20 +73,11 @@ export default function Home() {
                             <button className='cardButtonContainer2'>Show the property project</button>
 
                         </div>
-
-
-
-
-
                     </div>
-
-
-
                 </div>
-
-
-                <Footer />
             </div>
+
+            <Footer />
 
 
 

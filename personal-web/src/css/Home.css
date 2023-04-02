@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Source+Code+Pro:wght@200&display=swap");
 
+* {
+  background-color: #1a1d22 !important;
+}
+
 .mainContainerHome {
   /* background-color: #1a1d22 !important; */
   /* background-image: url('/images/backgroundWave.png'); */
@@ -28,10 +32,10 @@
 }
 
 .mainContainerHome2 {
-  background-color: #1a1d22 !important;
+  /* background-color: #1a1d22 !important; */
   color: white !important;
   height: 100vh !important;
-  margin-top: -50px !important;
+  /* margin-top: -50px !important; */
 }
 
 .mainTitleContainer2 {

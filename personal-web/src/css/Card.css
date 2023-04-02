@@ -5,8 +5,8 @@
   align-items: center !important;
   justify-content: center !important;
   margin: 0 !important;
-  background-color: #1a1d22 !important;
-  background-size: 16px 16px !important; 
+  /* background-color: #1a1d22 !important; */
+  background-size: 16px 16px !important;
 }
 
 .cardContainer2 {
@@ -20,20 +20,21 @@
 }
 
 .cardContainer2 .cardImgContainer2 {
-  max-width: 280px !important; 
+  max-width: 280px !important;
   width: 28vw !important;
   height: 300px !important;
-  object-fit: cover !important; 
+  object-fit: cover !important;
   margin-left: -60px !important;
   margin-right: 30px !important;
-  border-radius: inherit !important; 
-  box-shadow: 0 60px 40px rgb(0 0 0 / 8%) !important
+  border-radius: inherit !important;
+  box-shadow: 0 60px 40px rgb(0 0 0 / 8%) !important;
 }
 
 .cardContainer2 .cardTitileContainer2 {
   font-size: 22px !important;
   margin-right: 30px !important;
-  color: #38b09d !important; 
+  color: #38b09d !important;
+  background: #292f36 !important;
 }
 
 /* .card h3 {
@@ -47,6 +48,7 @@
   font-weight: 400 !important;
   color: #8ea2c1 !important;
   margin-bottom: 24px !important;
+  background: #292f36 !important;
 }
 
 .cardContainer2 .cardButtonContainer2 {
@@ -57,6 +59,10 @@
   padding: 10px 20px !important;
   font-size: 16px !important;
   border-radius: 40px !important;
+}
+
+.innerCardContent {
+  background: #292f36 !important;
 }
 
 @media (width <= 740px) {
@@ -79,7 +85,4 @@
     width: 100% !important;
     max-width: 1000px !important;
   }
-
-
-
 }
