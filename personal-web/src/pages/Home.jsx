@@ -6,9 +6,7 @@ import 'aos/dist/aos.css';
 import Aos from 'aos';
 import React from 'react';
 import Footer from '../components/Footer'
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-import Card from 'react-bootstrap/Card';
-import Carousel from 'react-bootstrap/Carousel';
+
 // import backgroundImage from '../images/backgroundWave.svg'
 
 
@@ -29,7 +27,7 @@ export default function Home() {
     return (
         <>
             <Navbar />
-            <div  className="mainContainerHome d-flex">
+            <div className="mainContainerHome d-flex">
                 <div className="mainContent container-md ">
                     <div className="innerMainContent  d-flex">
                         <div className="innerMainContentLeft">
@@ -76,7 +74,7 @@ export default function Home() {
                                 Hollyways is a website to help victims of natural disasters by providing donation services
                             </p>
                             <button className='cardButtonContainer2'>Show the property project</button>
-                            
+
                         </div>
 
 
@@ -90,12 +88,12 @@ export default function Home() {
                 </div>
 
 
-
+                <Footer />
             </div>
 
 
 
-            <Footer />
+
 
         </>
 
