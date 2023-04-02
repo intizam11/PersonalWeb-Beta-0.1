@@ -54,12 +54,10 @@
   margin-top: 10% !important;
 }
 
-.mainContent {
-  /* border: 1px solid red !important;  */
-  margin-top: 50px !important;
-  width: 50% !important;
-  margin: auto;
-}
+/* .mainContent {
+  border: 1px solid red !important; 
+  
+} */
 
 @media (width <= 740px) {
   .imageRight {

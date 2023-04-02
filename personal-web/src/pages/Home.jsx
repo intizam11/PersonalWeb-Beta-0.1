@@ -29,7 +29,7 @@ export default function Home() {
             <Navbar />
             <div className="mainContainerHome d-flex">
 
-                <div className="mainContent  ">
+                <div className="mainContent container-md ">
                     <div className="innerMainContent  d-flex">
                         <div className="innerMainContentLeft">
                             <p data-aos="fade-up"
