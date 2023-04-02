@@ -67,6 +67,10 @@
   background: #292f36 !important;
 }
 
+.innerCardContent a {
+  background: #292f36 !important;
+}
+
 @media (width <= 740px) {
   .cardContainer2 {
     margin: 100px 40px !important;
@@ -87,7 +91,6 @@
     width: 100% !important;
     max-width: 1000px !important;
   }
-
 
   .innerMainContentContainer2 {
     display: block !important;
