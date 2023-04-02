@@ -34,7 +34,8 @@
 .mainContainerHome2 {
   /* background-color: #1a1d22 !important; */
   color: white !important;
-  height: 100vh !important;
+  /* height: 100vh !important; */
+  /* border: 1px solid red !important; */
   /* margin-top: -50px !important; */
 }
 
@@ -42,9 +43,9 @@
   text-align: center !important;
   margin-bottom: 100px !important;
 }
-/* 
-.mainContainerHome {
-  border: 1px solid red !important;
+
+/* .mainContainerHome {
+  border: 1px solid white !important;
 } */
 
 .innerMainContent {
@@ -52,8 +53,13 @@
   margin-top: 10% !important;
 }
 
+/* .mainContent {
+  border: 1px solid red !important; 
+} */
+
 @media (width <= 740px) {
   .imageRight {
     display: none;
   }
+
 }

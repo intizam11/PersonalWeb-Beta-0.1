@@ -28,6 +28,7 @@ export default function Home() {
         <>
             <Navbar />
             <div className="mainContainerHome d-flex">
+
                 <div className="mainContent container-md ">
                     <div className="innerMainContent  d-flex">
                         <div className="innerMainContentLeft">
@@ -70,11 +71,44 @@ export default function Home() {
                             <p className='cardDetailContainer2'>
                                 Hollyways is a website to help victims of natural disasters by providing donation services
                             </p>
-                            <button className='cardButtonContainer2'>Show the property project</button>
+                            <a href='/detail'>
+                                <button className='cardButtonContainer2'>Show the property project</button>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div data-aos="zoom-in-up" className="cardContainer2">
+                        <img className='cardImgContainer2' src="/images/waysbeansThumbnail.png" />
+                        <div className='innerCardContent'>
+                            <h2 className='cardTitileContainer2'>Waysbeans</h2>
+                            {/* <h3>Type: Residential rental</h3> */}
+                            <p className='cardDetailContainer2'>
+                                Waysbeans is a platform where we can buy various kinds of coffee
+                            </p>
+                            <a href='/detail'>
+                                <button className='cardButtonContainer2'>Show the property project</button>
+                            </a>
+
+
 
                         </div>
                     </div>
+
+
+
+
+
                 </div>
+
+
+
+
+
+
+
+
+
             </div>
 
             <Footer />
