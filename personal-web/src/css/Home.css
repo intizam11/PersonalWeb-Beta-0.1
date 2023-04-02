@@ -11,6 +11,7 @@
   color: white !important;
   height: 100vh !important;
   background-size: cover !important;
+  ;
 }
 
 .mainContent .mainHomeName {
@@ -53,9 +54,10 @@
   margin-top: 10% !important;
 }
 
-/* .mainContent {
-  border: 1px solid red !important; 
-} */
+.mainContent {
+  /* border: 1px solid red !important;  */
+  margin-top: 50px !important;
+}
 
 @media (width <= 740px) {
   .imageRight {
